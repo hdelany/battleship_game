@@ -33,7 +33,7 @@ public class GUIGrids extends JPanel{
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		g.drawImage((new ImageIcon("src/resources/gui/gamePageBackground.png")).getImage(), 0, 0, CELL_SIZE * 10, CELL_SIZE * 10, this);
+		g.drawImage((new ImageIcon("src/resources/gamePageBackground.png")).getImage(), 0, 0, CELL_SIZE * 10, CELL_SIZE * 10, this);
 		
 		for (int i = 0; i < N_ROWS; i++) {
 
@@ -44,29 +44,29 @@ public class GUIGrids extends JPanel{
 				Image img = null;
 				switch (cell) {
 				case SHIPSUNK:
-					img = (new ImageIcon("src/resources/gui/grid/flag.png")).getImage();
+					img = (new ImageIcon("src/resources/grid/flag.png")).getImage();
 					break;
 				case SHIPHIT:
-					img = (new ImageIcon("src/resources/gui/grid/hit.png")).getImage();
+					img = (new ImageIcon("src/resources/grid/hit.png")).getImage();
 					break;
 				case WATER:
-					img = (new ImageIcon("src/resources/gui/grid/default.png")).getImage();
+					img = (new ImageIcon("src/resources/grid/default.png")).getImage();
 					break;
 				case MISS:
-					img = (new ImageIcon("src/resources/gui/grid/empty.png")).getImage();
+					img = (new ImageIcon("src/resources/grid/empty.png")).getImage();
 					break;
 				case SHIPINTACT:
 					if (showShips) {
-						img = (new ImageIcon("src/resources/gui/grid/ship.png")).getImage();
+						img = (new ImageIcon("src/resources/grid/ship.png")).getImage();
 					} else {
-						img = (new ImageIcon("src/resources/gui/grid/default.png")).getImage();
+						img = (new ImageIcon("src/resources/grid/default.png")).getImage();
 					}
 					break;
 				case SELECTED_WATER:
-					img = (new ImageIcon("src/resources/gui/grid/selected.png")).getImage();
+					img = (new ImageIcon("src/resources/grid/selected.png")).getImage();
 					break;
 				case SELECTED_SHIPINTACT:
-					img = (new ImageIcon("src/resources/gui/grid/selected.png")).getImage();
+					img = (new ImageIcon("src/resources/grid/selected.png")).getImage();
 					break;
 				}
 

@@ -65,10 +65,10 @@ public class GUIPanel extends JPanel{
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		if (currentPage.equals("MainPage")) {
-			g.drawImage((new ImageIcon("src/resources/gui/startPageBackground.png")).getImage(), 
+			g.drawImage((new ImageIcon("src/resources/startPageBackground.png")).getImage(), 
 					0, 0, BOARD_WIDTH, BOARD_HEIGHT, this);
 		} else {
-			g.drawImage((new ImageIcon("src/resources/gui/gamePageBackground.png")).getImage(),
+			g.drawImage((new ImageIcon("src/resources/gamePageBackground.png")).getImage(),
 					0, 0, BOARD_WIDTH, BOARD_HEIGHT, this);
 		}
 	}

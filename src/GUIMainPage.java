@@ -34,7 +34,7 @@ public class GUIMainPage extends JPanel{
 		
 		//adding BATTLESHIP title/logo
 		title = new JLabel();
-		title.setIcon(new ImageIcon("src/resources/gui/startPageTitle.png"));
+		title.setIcon(new ImageIcon("src/resources/startPageTitle.png"));
 		title.setAlignmentX(Component.CENTER_ALIGNMENT);
 		add(title);
 		
@@ -92,7 +92,7 @@ public class GUIMainPage extends JPanel{
 	}
 	
 	//icon for button
-	ImageIcon icon = new ImageIcon("src/resources/gui/startPageButton.png"); 
+	ImageIcon icon = new ImageIcon("src/resources/startPageButton.png"); 
 	
 	//characteristics for the buttons
 	private JButton addButton(String name, Color c) {
