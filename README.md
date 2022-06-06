@@ -8,7 +8,7 @@
 
 
 ## 1. How to run
-To start the game, first import the source files from this repository, then run the **Main.java** class.
+To start the game, import the source files from this repository and run the **Main.java** class.
 
 If you successfully installed the game it will show the following window:
 
