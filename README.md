@@ -12,7 +12,7 @@ To start the game, first import the source files from this repository, then run 
 
 If you successfully installed the game it will show the following window:
 
-![Main Screen](src/resources/readMePicture01.jpg)
+![Main Screen](src/resources/readme/readMePicture01.jpg)
 
 ## 2. How to Play
 
@@ -33,7 +33,7 @@ When playing you will see two boards:
 - In the top left corner you will have the computer's board, that is the one you are aiming at.
 - In the bottom right corner you will have your board, there is where the computer is aiming at.
 
-![Board](src/resources/readMePicture02.jpg)
+![Board](src/resources/readme/readMePicture02.jpg)
 
 To attack,choose a square on your opponent's board.  The squares can take the following values:
 
@@ -43,7 +43,7 @@ To attack,choose a square on your opponent's board.  The squares can take the fo
 - Explosion square: The position has been attacked, a ship in this position was hit, but the ship is still floating.
 - Red flagged square: The position has been attacked, and the ship located in this square has been sunk.
 
-![Squares](src/resources/readMePicture03.jpg)
+![Squares](src/resources/readme/readMePicture03.jpg)
 
 #### Tracking the game
 
@@ -51,18 +51,18 @@ You can track the progress of the game by viewing the ships inventory in the top
 
 The second way to track the game is in bottom left console that will narrate the changes in the status of the squares.
 
-![Squares](src/resources/readMePicture04.jpg)
+![Squares](src/resources/readme/readMePicture04.jpg)
 
 #### Menu
 
 When clicking on **Menu** the player will be prompted with three options:
 
 
-![MenuPrompt](src/resources/readMePicture06.jpg)
+![MenuPrompt](src/resources/readme/readMePicture06.jpg)
 
 - Unhide Ships: this will reveal all of the opponent's ships, but will not terminate the game.
 
-![RevealedShips](src/resources/readMePicture07.jpg)
+![RevealedShips](src/resources/readme/readMePicture07.jpg)
 
 - Restart: this will take the user back to the main screen to choose the gaming mode.
 - Quit: this will close the entire application.
@@ -83,7 +83,7 @@ The game has five different modes that are explained below.
 
 - In this mode, the user has an specific quantity of bombs (3) that can be used at any point during the game. If a ship is hit by a bomb it will immediately be sunk.
 
-![Bomb](src/resources/readMePicture05.jpg)
+![Bomb](src/resources/readme/readMePicture05.jpg)
 
 #### Rapid Fire
 

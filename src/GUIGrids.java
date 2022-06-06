@@ -33,7 +33,7 @@ public class GUIGrids extends JPanel{
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
-		g.drawImage((new ImageIcon("src/resources/gamePageBackground.png")).getImage(), 0, 0, CELL_SIZE * 10, CELL_SIZE * 10, this);
+		g.drawImage((new ImageIcon("src/resources/frame/gamePageBackground.png")).getImage(), 0, 0, CELL_SIZE * 10, CELL_SIZE * 10, this);
 		
 		for (int i = 0; i < N_ROWS; i++) {
 
