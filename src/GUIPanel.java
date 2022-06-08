@@ -61,14 +61,15 @@ public class GUIPanel extends JPanel{
 		repaint();
 	}
 	
+	
 	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponent(g);
 		if (currentPage.equals("MainPage")) {
-			g.drawImage((new ImageIcon("src/resources/frame/startPageBackground.png")).getImage(), 
+			g.drawImage((new ImageIcon(getClass().getResource("frame/startPageBackground.png"))).getImage(), 
 					0, 0, BOARD_WIDTH, BOARD_HEIGHT, this);
 		} else {
-			g.drawImage((new ImageIcon("src/resources/frame/gamePageBackground.png")).getImage(),
+			g.drawImage((new ImageIcon(getClass().getResource("frame/gamePageBackground.png"))).getImage(),
 					0, 0, BOARD_WIDTH, BOARD_HEIGHT, this);
 		}
 	}

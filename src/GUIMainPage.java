@@ -4,6 +4,10 @@ import java.awt.Dimension;
 import java.awt.Font;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+import java.awt.image.BufferedImage;
+import java.io.IOException;
+
+import javax.imageio.ImageIO;
 import javax.swing.Box;
 import javax.swing.BoxLayout;
 import javax.swing.ImageIcon;
@@ -34,7 +38,7 @@ public class GUIMainPage extends JPanel{
 		
 		//adding BATTLESHIP title/logo
 		title = new JLabel();
-		title.setIcon(new ImageIcon("src/resources/frame/startPageTitle.png"));
+		title.setIcon(new ImageIcon(getClass().getResource("frame/startPageTitle.png")));
 		title.setAlignmentX(Component.CENTER_ALIGNMENT);
 		add(title);
 		
@@ -92,7 +96,7 @@ public class GUIMainPage extends JPanel{
 	}
 	
 	//icon for button
-	ImageIcon icon = new ImageIcon("src/resources/frame/startPageButton.png"); 
+	ImageIcon icon = new ImageIcon(getClass().getResource("frame/startPageButton.png"));
 	
 	//characteristics for the buttons
 	private JButton addButton(String name, Color c) {
