@@ -8,7 +8,9 @@
 
 
 ## 1. How to run
-To start the game, download battleship.jar and click on the file. You may also run the file from the command line by navigating to the target dirctory and executing:  ``run java -jar battleship.jar``
+To start the game, download **battleship.jar** and click on the file. 
+
+You may also run **battleship.jar** from the command line. Simply navigate to the target directory and execute:  ``run java -jar battleship.jar``
 
 Alternatively, import the source files from this repository and run the **Main.java** class.
 
