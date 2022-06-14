@@ -11,6 +11,16 @@ import java.awt.EventQueue;
 public class Main {
 
 	public static void main(String[] args) {
+		
+		System.setProperty("sun.java2d.d3d", "False");
+   		System.setProperty("sun.java2d.opengl", "True");
+   		System.setProperty("sun.java2d.noddraw", "True");
+ 
+   		//System.out.println("sun.java2d.noddraw: " + System.getProperty("sun.java2d.noddraw"));
+        //System.out.println("sun.java2d.d3d: " + System.getProperty("sun.java2d.d3d"));
+        //System.out.println("sun.java2d.opengl: " + System.getProperty("sun.java2d.opengl"));
+  
+        
 		EventQueue.invokeLater(() -> {
 			GUIFrame gui = new GUIFrame();
 			gui.run();
