@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: Apache Maven 3.6.1
+Built-By: root
+Build-Jdk: 11.0.3
+Main-Class: main.Main
+Ignore-Scanning-Packages: com,org,net
+branch: master
+buildTime: 2022-02-03T15:06:36+0000
+commitId: 8a5700fa683f8929d407f75244793851dfe79dfd
+commitTime: 2022-02-03T14:41:32+0000
+describe: 21.2.7-modified-2022-02-03T15:06:28Z
+remoteOriginUrl: https://bitbucket.org/webswing/webswing-home.git
+version: 21.2.7
+

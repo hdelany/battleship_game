@@ -1,0 +1,13 @@
+14-Jun-2022-22:47:17.094 | LOGIN | SUCCESS | admin | / | 127.0.0.1 | protocol: http | module: org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+14-Jun-2022-22:48:40.158 | INSTANCE | STARTED | admin | /netbeans | 127.0.0.1 | instanceId: netbeans_admin_903517b765f2_1655246919995
+14-Jun-2022-22:49:03.650 | LOGIN | SUCCESS | admin | / | 127.0.0.1 | protocol: http | module: org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+14-Jun-2022-22:51:01.977 | INSTANCE | STARTED | admin | /netbeans | 127.0.0.1 | instanceId: netbeans_admin_903517b765f2_1655247061807
+14-Jun-2022-22:51:10.240 | INSTANCE | STARTED | admin | /webswing-demo-applet | 127.0.0.1 | instanceId: webswing_demo_applet_admin_903517b765f2_1655247070150
+14-Jun-2022-23:02:42.939 | INSTANCE | STARTED | admin | /battleship | 127.0.0.1 | instanceId: battleship_admin_903517b765f2_1655247762778
+14-Jun-2022-23:23:22.305 | INSTANCE | STARTED | admin | /battleship | 127.0.0.1 | instanceId: battleship_admin_903517b765f2_1655249002151
+15-Jun-2022-00:21:54.659 | LOGIN | SUCCESS | admin | / | 69.119.235.64 | protocol: http | module: org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+15-Jun-2022-00:22:01.957 | INSTANCE | STARTED | admin | /battleship | 69.119.235.64 | instanceId: battleship_admin_93507dd7db87_1655252521801
+15-Jun-2022-00:22:19.879 | INSTANCE | FINISHED | admin | /battleship | 69.119.235.64 | instanceId: battleship_admin_93507dd7db87_1655252521801
+15-Jun-2022-00:22:29.524 | LOGIN | SUCCESS | user | / | 69.119.235.64 | protocol: http | module: org.webswing.server.services.security.modules.embeded.EmbededSecurityModule
+15-Jun-2022-00:22:29.696 | INSTANCE | STARTED | user | /battleship | 69.119.235.64 | instanceId: battleship_user_93507dd7db87_1655252549681
+15-Jun-2022-00:24:26.109 | INSTANCE | STARTED | user | /battleship | 69.119.235.64 | instanceId: battleship_user_93507dd7db87_1655252665952

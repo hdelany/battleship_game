@@ -1,0 +1,514 @@
+2022-06-14 22:50:47,958 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 22:50:48,314 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 22:50:48,331 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 22:50:48,485 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 22:50:48,500 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 22:50:48,522 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 22:50:48,522 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 22:50:48,664 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://localhost:8080].
+2022-06-14 22:50:50,247 INFO  [ tyrus-jdk-client-2] (AdminWebSocketConnectionImpl.java:66) Websocket opened to server [ws://localhost:8080]!
+2022-06-14 22:50:50,977 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:153) Installing application /webswing-demo
+2022-06-14 22:50:51,169 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:153) Installing application /netbeans
+2022-06-14 22:50:51,171 INFO  [ tyrus-jdk-client-2] (AdminGlobalUrlHandler.java:153) Installing application /webswing-demo-applet
+2022-06-14 23:02:18,938 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:02:19,203 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:02:19,203 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:02:19,359 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:02:19,375 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:02:19,391 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:02:19,391 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:02:19,391 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://localhost:8080].
+2022-06-14 23:02:20,719 INFO  [ tyrus-jdk-client-3] (AdminWebSocketConnectionImpl.java:66) Websocket opened to server [ws://localhost:8080]!
+2022-06-14 23:02:21,484 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /battleship
+2022-06-14 23:02:21,688 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /webswing-demo
+2022-06-14 23:02:21,688 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /flatlaf
+2022-06-14 23:02:21,688 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /netbeans
+2022-06-14 23:02:21,688 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /webswing-demo-applet
+2022-06-14 23:21:51,743 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:21:52,011 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:21:52,027 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:21:52,183 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:21:52,199 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:21:52,199 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:21:52,199 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:21:52,230 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://localhost:8080].
+2022-06-14 23:21:53,620 INFO  [ tyrus-jdk-client-2] (AdminWebSocketConnectionImpl.java:66) Websocket opened to server [ws://localhost:8080]!
+2022-06-14 23:21:54,386 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /battleship
+2022-06-14 23:21:54,605 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /webswing-demo
+2022-06-14 23:21:54,605 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /netbeans
+2022-06-14 23:21:54,605 INFO  [ tyrus-jdk-client-3] (AdminGlobalUrlHandler.java:153) Installing application /webswing-demo-applet
+2022-06-14 23:31:29,254 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:31:29,551 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:31:29,551 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:31:29,691 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:31:29,707 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:31:29,723 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:31:29,723 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:31:29,723 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:31:31,035 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:31:31,035 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:31:31,035 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-14 23:31:36,051 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-14 23:31:36,051 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:31:37,072 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:31:37,072 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:31:41,061 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-14 23:31:42,076 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:31:43,108 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:31:43,108 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:31:46,061 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-14 23:31:48,122 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:31:49,154 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:31:49,154 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:31:51,075 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-14 23:40:51,838 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:40:52,150 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:40:52,150 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:40:52,291 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:40:52,307 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:40:52,322 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:40:52,322 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:40:52,322 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:42:47,041 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:42:47,306 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:42:47,306 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:42:47,431 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:42:47,447 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:42:47,463 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:42:47,463 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:42:47,478 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:42:48,693 INFO  [main] (AdminWebSocketServiceImpl.java:278) Stopping service. Closing websocket connections.
+2022-06-14 23:42:48,693 INFO  [main] (AdminWebSocketConnectionImpl.java:135) Disconnecting websocket to server [ws://150.136.217.117:8080].
+2022-06-14 23:42:48,833 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:42:48,833 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:42:51,708 INFO  [main] (AdminServlet.java:134) Webswing Admin Server Stopped.
+2022-06-14 23:43:27,318 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:43:27,568 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:43:27,584 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:43:27,709 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:43:27,740 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:43:27,740 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:43:27,740 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:43:27,772 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:43:28,933 INFO  [main] (AdminWebSocketServiceImpl.java:278) Stopping service. Closing websocket connections.
+2022-06-14 23:43:28,933 INFO  [main] (AdminWebSocketConnectionImpl.java:135) Disconnecting websocket to server [ws://150.136.217.117:8080].
+2022-06-14 23:43:28,995 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:43:28,995 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:43:31,959 INFO  [main] (AdminServlet.java:134) Webswing Admin Server Stopped.
+2022-06-14 23:44:36,208 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:44:36,490 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:44:36,490 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:44:36,646 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:44:36,662 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:44:36,662 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:44:36,662 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:44:36,677 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:44:37,831 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:44:37,862 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:44:37,878 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-14 23:44:37,878 INFO  [main] (AdminWebSocketServiceImpl.java:278) Stopping service. Closing websocket connections.
+2022-06-14 23:44:37,893 INFO  [main] (AdminWebSocketConnectionImpl.java:135) Disconnecting websocket to server [ws://150.136.217.117:8080].
+2022-06-14 23:44:40,898 INFO  [main] (AdminServlet.java:134) Webswing Admin Server Stopped.
+2022-06-14 23:46:31,839 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-14 23:46:32,120 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-14 23:46:32,120 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-14 23:46:32,261 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-14 23:46:32,292 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-14 23:46:32,292 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-14 23:46:32,292 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-14 23:46:32,307 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-14 23:46:33,448 INFO  [main] (AdminWebSocketServiceImpl.java:278) Stopping service. Closing websocket connections.
+2022-06-14 23:46:33,448 INFO  [main] (AdminWebSocketConnectionImpl.java:135) Disconnecting websocket to server [ws://150.136.217.117:8080].
+2022-06-14 23:46:33,479 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-14 23:46:33,479 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-14 23:46:36,463 INFO  [main] (AdminServlet.java:134) Webswing Admin Server Stopped.
+2022-06-15 00:02:19,676 INFO  [main] (AdminServlet.java:47) Initializing Webswing Admin Server...
+2022-06-15 00:02:19,957 INFO  [main] (AdminInitializer.java:21) Using Temp folder: C:\Users\opc\Desktop\webswing-examples-eval-21.2.7\tmp\serveradmin\release
+2022-06-15 00:02:19,957 INFO  [main] (AdminInitializer.java:32) Using Properties file: file:/C:/Users/opc/Desktop/webswing-examples-eval-21.2.7/admin/webswing-admin.properties
+2022-06-15 00:02:20,082 ERROR [main] (AdminServlet.java:115) Please change webswing.connection.secret system property to a non-default value in production!
+java.lang.IllegalStateException: Please change webswing.connection.secret system property to a non-default value in production!
+	at org.webswing.admin.server.AdminServlet.initializeDefaultSystemProperties(AdminServlet.java:115) ~[classes/:?]
+	at org.webswing.admin.server.AdminServlet.init(AdminServlet.java:57) ~[classes/:?]
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244) ~[WEB-INF_server-lib_javax.servlet-api-3.1.0.jar:3.1.0]
+	at org.eclipse.jetty.servlet.ServletHolder.initServlet(ServletHolder.java:632) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHolder.initialize(ServletHolder.java:415) ~[?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.lambda$initialize$0(ServletHandler.java:731) ~[?:?]
+	at java.util.stream.SortedOps$SizedRefSortingSink.end(SortedOps.java:357) [?:?]
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:485) [?:?]
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474) [?:?]
+	at java.util.stream.StreamSpliterators$WrappingSpliterator.forEachRemaining(StreamSpliterators.java:312) [?:?]
+	at java.util.stream.Streams$ConcatSpliterator.forEachRemaining(Streams.java:735) [?:?]
+	at java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:658) [?:?]
+	at org.eclipse.jetty.servlet.ServletHandler.initialize(ServletHandler.java:755) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.startContext(ServletContextHandler.java:379) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startWebapp(WebAppContext.java:1449) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.startContext(WebAppContext.java:1414) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.ContextHandler.doStart(ContextHandler.java:910) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStart(ServletContextHandler.java:288) [WEB-INF_server-lib_jetty-servlet-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:524) [WEB-INF_server-lib_jetty-webapp-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.start(Server.java:423) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.server.Server.doStart(Server.java:387) [WEB-INF_server-lib_jetty-server-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:73) [WEB-INF_server-lib_jetty-util-9.4.43.v20210629.jar:9.4.43.v20210629]
+	at org.webswing.ServerMain.main(ServerMain.java:147) [WEB-INF_server-lib_webswing-server-launcher.jar:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?]
+	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:?]
+	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:566) ~[?:?]
+	at main.Main.main(Main.java:122) [webswing-server.war:?]
+2022-06-15 00:02:20,098 INFO  [main] (WebSocketUrlLoaderServiceImpl.java:112) Websocket URLs reloaded.
+2022-06-15 00:02:20,113 WARN  [main] (AdminGlobalUrlHandler.java:69) Failed to load customize dir [customize/]
+2022-06-15 00:02:20,113 INFO  [main] (DefaultStartupServiceImpl.java:29) Starting service AdminWebSocketServiceImpl
+2022-06-15 00:02:20,113 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-15 00:02:21,316 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-15 00:02:21,316 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-15 00:02:21,316 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-15 00:02:26,332 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-15 00:02:26,332 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-15 00:02:27,354 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-15 00:02:27,354 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-15 00:02:31,342 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
+2022-06-15 00:02:32,358 INFO  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:126) Starting websocket connection to server [ws://150.136.217.117:8080].
+2022-06-15 00:02:33,384 ERROR [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:219) Failed to connect websocket to server [ws://150.136.217.117:8080]! Failed to connect to websocket
+2022-06-15 00:02:33,384 INFO  [Admin Websocket Service Timer] (AdminWebSocketServiceImpl.java:262) Websocket closed to server id [null], url [ws://150.136.217.117:8080]. Reconnect in 5000ms.
+2022-06-15 00:02:36,353 WARN  [Admin Websocket Service Timer] (AdminWebSocketConnectionImpl.java:154) Websocket connection to server [ws://150.136.217.117:8080] is not open! Ignoring send message.
