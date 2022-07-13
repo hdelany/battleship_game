@@ -8,13 +8,12 @@ import java.util.Set;
  * 
  * This class will be used to create the board
  * for both the player and computer
- * This class is called by the BoardGenerator class
  * 
  *
  * Constructor creates a board with parameters:
  *
  *		- int size: the number of squares on each side of board
- *  	- Set<Ship> ships: the set of ships the board will contain
+ *		- Set<Ship> ships: the set of ships the board will contain
  *		- boolean auto_arrange: true if board will arrange ship automatically
  *			true for computer generated board
  *			false of user placing ships on board

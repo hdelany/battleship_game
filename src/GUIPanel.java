@@ -7,7 +7,8 @@ import javax.swing.JPanel;
 /**
  * GUIPanel class
  * 
- * This GUI class responds to the menu actions.
+ * This GUI class responds to the menu actions
+ * This class paints the panel for current page
  */
 
 public class GUIPanel extends JPanel{

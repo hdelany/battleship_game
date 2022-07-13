@@ -1,7 +1,7 @@
 /**
  * Direction class
  * 
- * This class contains the enum for the ship's direction
+ * enum class for the ship's direction
  * This class is called by the ship class
  *
  */

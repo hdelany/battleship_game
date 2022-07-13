@@ -1,8 +1,7 @@
 /**
  * Status class
  * 
- * This class contains the enum for the content/status of a square in the board
- * This class is called by the Board class
+ * enum class for the content/status of a square in the board
  *
  */
 public enum Status {

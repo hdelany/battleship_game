@@ -2,7 +2,6 @@
  * Ship class
  * 
  * This class will be used to create the ships
- * This class is called by the BoardGenerator class
  * 
  * Constructor creates a ship with parameters :
  * 

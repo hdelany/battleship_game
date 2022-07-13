@@ -7,8 +7,6 @@ import java.util.Set;
 /**
  * This class incorporoates the "Ships on the Run" mode,
  * where the ships move & regenerate if they are not sunk in time
- * 
- * @author Hdelany
  *
  */
 
