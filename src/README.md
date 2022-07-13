@@ -8,7 +8,7 @@
 - The menu bar has the options: 
     - Restart
     - Unhide ships
-    - Quit. 
+    - Quit
 - This class instantiates a <tt><b>GUIPanel</b></tt>.
 
 #### GUIPanel
@@ -64,13 +64,12 @@
 #### Board
 - The <tt><b>Board</b></tt> class is used to create the board for both the player and computer.
 - <tt><b>Ship</b></tt>s are autoarranged on the board.
-- This class also contains methods to get information about the status of the board (the state of the squares and <tt><b>Ship</b></tt>s on the board)
+- This class also contains methods to get information about the status of the board (the state of the squares and <tt><b>Ship</b></tt>s on the board).
 
 #### Coordinate
 - This class defines a global usable coordinate. 
 - The coordinate is immutable it is after created.
-- This class is called by the <tt><b>Board</b></tt> class.
-   
+
 #### Status
 - <tt>enum</tt> class defining the possible status of a square in the board.
 - Possibilities include:
