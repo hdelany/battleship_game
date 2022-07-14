@@ -47,7 +47,6 @@ To attack,choose a square on your opponent's board.  The squares can take the fo
 - Explosion square: The position has been attacked, a ship in this position was hit, but the ship is still floating.
 - Red flagged square: The position has been attacked, and the ship located in this square has been sunk.
 
-![Squares](src/resources/readme/readMeGif02.gif)
 
 #### Tracking the game
 
