@@ -47,7 +47,7 @@ To attack,choose a square on your opponent's board.  The squares can take the fo
 - Explosion square: The position has been attacked, a ship in this position was hit, but the ship is still floating.
 - Red flagged square: The position has been attacked, and the ship located in this square has been sunk.
 
-![Squares](src/resources/readme/readMeGif03.gif)
+![Squares](src/resources/readme/readMeGif02.gif)
 
 #### Tracking the game
 
@@ -83,19 +83,25 @@ The game has five different modes that are explained below.
 
 -  In this extreme version of the classic game, the ships will move and recover from the shots if they hit but are not sunk within a designated number of turns (dependent on the size of the ship).
 
+![Run](src/resources/readme/readMeGif03.gif)
+
 #### Bombs Away!
 
 - In this mode, the user has an specific quantity of bombs (3) that can be used at any point during the game. If a ship is hit by a bomb it will immediately be sunk.
 
-![Bomb](src/resources/readme/readMePicture05.jpg)
+![Bombs](src/resources/readme/readMeGif04.gif)
 
 #### Rapid Fire
 
 - Rapid fire mode allows the user to choose multiple squares to hit in one turn, with the quantity of available shots equal to the number of ships that the opponent has remaining. The player will make the shots without knowing what impact they had until the end of the turn.
 
+![Rapid](src/resources/readme/readMeGif05.gif)
+
 
 #### Lucky Shot
 
 - If you miss several shots in a row, computer assist will be enabled to help you to find a target. The likelihood of computer assist hitting a target increases proportionally to the amount of misses in a row.
+
+![Lucky](src/resources/readme/readMeGif06.gif)
 
 
