@@ -16,7 +16,7 @@ Alternatively, import the source files from this repository and run the **Main.j
 
 If you successfully installed the game it will show the following window:
 
-![Main Screen](src/resources/readme/readMePicture01.jpg)
+![Main Screen](src/resources/readme/readMePicture01.gif)
 
 ## 2. How to Play
 
