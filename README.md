@@ -83,7 +83,7 @@ The game has five different modes that are explained below.
 
 -  In this extreme version of the classic game, the ships will move and recover from the shots if they hit but are not sunk within a designated number of turns (dependent on the size of the ship).
 
-![Movement](src/resources/readme/readMeGif02.gif)
+![Movement](src/resources/readme/readMeGif03.gif)
 
 #### Bombs Away!
 
